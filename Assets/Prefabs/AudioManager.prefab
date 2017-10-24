@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1232883729446196}
+  m_IsPrefabParent: 1
+--- !u!1 &1232883729446196
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4055836034126162}
+  - component: {fileID: 114896026979650350}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4055836034126162
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1232883729446196}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 11.209129, z: 90}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114896026979650350
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1232883729446196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c76a7fb2104413a40ab695c4b76e1a1a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: MainMenu
+    clip: {fileID: 8300000, guid: 32a2599f18c1de947ad5691bf96fd279, type: 3}
+    pitch: 1
+    loop: 1
+    enabled: 1
+    isSfX: 0
+    isMusic: 1
+    source: {fileID: 0}
+  - name: Level
+    clip: {fileID: 8300000, guid: ffbbe958cb145934bbbd75b8663ae3f7, type: 3}
+    pitch: 1
+    loop: 1
+    enabled: 1
+    isSfX: 0
+    isMusic: 1
+    source: {fileID: 0}
+  - name: Yay
+    clip: {fileID: 8300000, guid: aa63f8d3cd55ce44b80c7b8668a56864, type: 3}
+    pitch: 1
+    loop: 0
+    enabled: 1
+    isSfX: 1
+    isMusic: 0
+    source: {fileID: 0}
+  - name: Bullet
+    clip: {fileID: 8300000, guid: 14dd42a3733ef2547b5016a6e3e6bfa4, type: 3}
+    pitch: 1
+    loop: 0
+    enabled: 1
+    isSfX: 1
+    isMusic: 0
+    source: {fileID: 0}
+  - name: Asteroid
+    clip: {fileID: 8300000, guid: d3f9f94f43316bd40b9301abf3ac9fdf, type: 3}
+    pitch: 1
+    loop: 0
+    enabled: 1
+    isSfX: 1
+    isMusic: 0
+    source: {fileID: 0}
+  - name: RainBow
+    clip: {fileID: 8300000, guid: 94e976131fd264545be882567420abe4, type: 3}
+    pitch: 1
+    loop: 1
+    enabled: 1
+    isSfX: 1
+    isMusic: 0
+    source: {fileID: 0}
+  - name: ScreenBomb
+    clip: {fileID: 8300000, guid: d5360950c5eac3444ad879387136655a, type: 3}
+    pitch: 1
+    loop: 0
+    enabled: 1
+    isSfX: 1
+    isMusic: 0
+    source: {fileID: 0}
+  - name: TimeStop
+    clip: {fileID: 8300000, guid: a41f8fa7510c11f40915385699f761ea, type: 3}
+    pitch: 1
+    loop: 0
+    enabled: 1
+    isSfX: 1
+    isMusic: 0
+    source: {fileID: 0}
+  - name: ShieldDown
+    clip: {fileID: 8300000, guid: 66ea43baac861c045976aa99d5933375, type: 3}
+    pitch: 1
+    loop: 0
+    enabled: 1
+    isSfX: 1
+    isMusic: 0
+    source: {fileID: 0}
+  - name: Dead
+    clip: {fileID: 8300000, guid: ddbc681b9fb227440983580d0178ab72, type: 3}
+    pitch: 1
+    loop: 0
+    enabled: 1
+    isSfX: 1
+    isMusic: 0
+    source: {fileID: 0}
+  - name: Explosion
+    clip: {fileID: 8300000, guid: 5eeacdee80beb3846b44011afc1adc77, type: 3}
+    pitch: 1
+    loop: 0
+    enabled: 1
+    isSfX: 1
+    isMusic: 0
+    source: {fileID: 0}
+  SFXVolume: 1
+  MusicVolume: 1
